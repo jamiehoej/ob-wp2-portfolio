@@ -1,4 +1,4 @@
-# ob-wp2-portfolio
+# 🐸 ob-wp2-portfolio
 
 Portfolio assignment for OB-WP2 E24.
 
@@ -32,3 +32,7 @@ Portfolio assignment for OB-WP2 E24.
    ```bash
    npm run dev --prefix frontend
    ```
+
+## Video Walkthrough
+
+https://github.com/user-attachments/assets/0a5add6e-3759-40cc-bcc4-5163961c0421
