@@ -32,7 +32,6 @@ export default function App() {
         <div style={{ maxWidth: containerWidth }}>
           <LineChart
             series={[{ data: coins.map((coin) => coin.rateUsd) }]} // [{data: [1, 2, 3]}, {data: [1, 3, 4]}]
-            //   xAxis={[{ data: coins.map((coin) => coin.timestamp) }]}
             width={containerWidth}
             height={300}
           />
