@@ -1,5 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
+import cors from "cors";
 import Coin from "./models/coin.model.js";
 
 // Constants
@@ -9,6 +10,7 @@ const PORT = 3000;
 
 // create the express app
 const app = express();
+app.use(cors());
 
 // routes
 
