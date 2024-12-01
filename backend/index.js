@@ -1,5 +1,4 @@
 import express from "express";
-import { getRandomEmoji } from "./emoji.js";
 import mongoose from "mongoose";
 import Coin from "./models/coin.model.js";
 
@@ -16,16 +15,6 @@ const app = express();
 // GET http://localhost:3000/
 app.get("/", (request, response) => {
   response.send("hi");
-});
-
-// GET http://localhost:3000/data
-app.get("/data", (request, response) => {
-  const data = {
-    blop: 1234,
-    blep: "AAAAAAA FROGGGGGGG 🐸",
-    emoji: getRandomEmoji(),
-  };
-  response.json(data);
 });
 
 // GET http://localhost:3000/coins
